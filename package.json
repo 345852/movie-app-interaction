@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "deploy:tencent": "bash scripts/deploy-tencent-cos.sh",
     "dev": "vite"
   },
   "dependencies": {
